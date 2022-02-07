@@ -8,19 +8,19 @@
     "text": "MaryS"
   },
   "text": {
-    "more": "",
-    "intro": "My network of central actors who exhibited in MoMA during 1929-1989\nEdges appear between nodes (artists), when they participated in the same exhibition.",
-    "title": "MoMA exhibitions network analysis"
+    "more": "3847 central figures were selected from the original dataset by their betweeness centrality (>0). \n They are coloured according to their role: pink - artist, green - curator, blue - competition judge, orange - installer, brown - designer, red - arranger, last - preparer\n Original dataset: https://github.com/MuseumofModernArt/exhibitions#:~:text=The%20exhibition%20index%20dataset%20was,its%20registrar%20and%20curatorial%20departments. \n Made by Maria Sysoeva ",
+    "intro": "My network of central actors who participated in MoMA`s exhibitions during 1929-1989\nEdges appear between nodes, when they participated in the same exhibition.",
+    "title": "MoMA 1929-189 exhibitions network analysis"
   },
   "legend": {
     "edgeLabel": "Exhibitions",
-    "colorLabel": "Betweeness Centrality",
-    "nodeLabel": "Artists"
+    "colorLabel": "Role",
+    "nodeLabel": "Actors"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Clustering Coefficient",
-    "hoverBehavior": "default"
+    "groupSelectorAttribute": "Role",
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
